@@ -6,24 +6,21 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(180deg, #654da0 10%, #09050e 90%) no-repeat center/cover;
-    color: #000;
     height: 100vh;
 }
 a {
     color: #fff;
     text-decoration: none;
 }
-h1, h2 {
-    color: #fff;
-    font-weight: 500;
-    line-height: 0;
-}
 h1 {
     font-size: 7em;
+    font-weight: 500;
+    line-height: 0;
 }
 h2 {
     font-size: 2em;
     font-weight: 400;
+    line-height: 0;
 }
 .container {
     max-width: 550px;
@@ -32,7 +29,6 @@ h2 {
 header {
     color: #fff;
     padding: 10px;
-    text-align: center;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -45,6 +41,7 @@ header h2 {
     position: absolute;
     right: 46px;
     bottom: 15px;
+    color: #1e1236;
 }
 main {
     padding: 20px;
@@ -68,12 +65,13 @@ input,select {
     border-radius: 5px;
     width: 278px;
     height: 40px;
-    font-size: 1.2em;
+    font-size: 1em;
+    font-weight: bold;
     padding: 0 10px;
 }
 button {
     padding: 15px 0;
-    background-color: #1e7400;
+    background-color: #1e1236;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -89,7 +87,7 @@ button {
     background-color: #f9f9f9;
     height: 20px;
     width: 264px;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 #kopyala {
     margin-top: 10px;
@@ -97,7 +95,7 @@ button {
 }
 #kopyala button {
     padding: 15px 0;
-    background-color: #1e7400;
+    background-color: #1e1236;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -129,14 +127,11 @@ footer a:hover {
     }
 }
 .animate {
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
 }
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 4em;
-    }
-    h2 {
-        font-size: 1.5em;
     }
     .container {
         max-width: 300px;
@@ -150,23 +145,5 @@ footer a:hover {
         position: absolute;
         right: 20px;
         bottom: 5px;
-    }
-    input,select {
-        width: 250px;
-    }
-    button {
-        width: 270px;
-    }
-    #sifre {
-        width: 235px;
-    }
-    #kopyala button {
-        width: 270px;
-    }
-    #guc {
-        font-size: 1em;
-    }
-    footer {
-        font-size: 0.8em;
     }
 }
