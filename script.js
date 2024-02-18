@@ -49,13 +49,13 @@ function hesaplaGuc(sifre) {
 
   const gucGostergesi = document.getElementById("guc-gostergesi");
   if (guc <= 3) {
-    gucGostergesi.textContent = "Die Passwortstärke ist zu niedrig!";
+    gucGostergesi.textContent = "Niedrig!";
     gucGostergesi.style.color = "red";
   } else if (guc <= 6) {
-    gucGostergesi.textContent = "Die Passwortstärke ist mittelmäßig.";
+    gucGostergesi.textContent = "Mittelmäßig!";
     gucGostergesi.style.color = "orange";
   } else {
-    gucGostergesi.textContent = "Die Passwortstärke ist stark!";
+    gucGostergesi.textContent = "Stark!";
     gucGostergesi.style.color = "green";
   }
 }
