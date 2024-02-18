@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Passwort-Generator">
+    <meta name="keywords" content="Passwort, Generator, Passwort-Generator">
+    <meta name="author" content="mkamburdev">
+    <title>Passwort-Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1><a href="index.html">Passwort</a></h1>
+            <h2>Generator</h2>
+        </header>
+        <main>
+            <form action="#">
+                <label for="sifreUzunlugu">Passwortlänge:</label>
+                <input type="number" id="sifreUzunlugu" name="sifreUzunlugu" min="1" max="50" value="10">
+                <button type="submit" onclick="olustur(event)">Passwort Erstellen 🔑</button>
+            </form>
+            <div id="sifre"></div>
+            <div id="kopyala">
+                <button onclick="kopyala()">Kopieren 😎</button>
+            </div>
+            <div id="guc">
+                Passwortstärke: <span id="guc-gostergesi"></span>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright © 2024 Passwort-Generator</p>
+            <p><a href="https://github.com/mkamburdev" target="_blank">mkamburdev</a></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
