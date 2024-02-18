@@ -15,7 +15,7 @@ function olustur(e) {
   document.getElementById("sifre").textContent = sifre;
   hesaplaGuc(sifre);
 
-  history.pushState({}, "", "/index.html");
+  history.pushState({}, "", "./index.html");
 }
 
 function kopyala() {
