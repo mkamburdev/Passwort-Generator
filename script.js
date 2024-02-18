@@ -5,7 +5,6 @@ function olustur(e) {
 
     let sifreUzunlugu = parseInt(document.getElementById("sifreUzunlugu").value);
 
-<<<<<<< HEAD
     if (sifreUzunlugu > 20) {
         document.getElementById("uyari").style.display = "inline";
         return;
@@ -20,10 +19,7 @@ function olustur(e) {
     document.getElementById("sifre").textContent = sifre;
     hesaplaGuc(sifre);
 
-    history.pushState({}, "", "/index.html");
-=======
-  history.pushState({}, "", "index.html");
->>>>>>> 79b80ac31e21630a162cd51e23874adc4bdd1abb
+    history.pushState({}, "", "index.html");
 }
 
 function kopyala() {
