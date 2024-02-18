@@ -1,0 +1,217 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    font-family: Fredoka, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(180deg, #654da0 10%, #09050e 90%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #000;
+    height: 100svh;
+}
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus,
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    color: #fff;
+    font-size: 7em;
+    font-weight: 500;
+    line-height: 0;
+}
+
+h2 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 0;
+}
+
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+header {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+header h2 {
+    position: absolute;
+    right: 46px;
+    bottom: 15px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input,
+select {
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 278px;
+    height: 40px;
+    font-size: 1.2em;
+    padding: 0 10px;
+}
+
+button {
+    padding: 15px 0;
+    background-color: #1e7400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 300px;
+}
+
+#sifre {
+    margin: 5px 0;
+    padding: 10px 17px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    height: 20px;
+    width: 264px;
+    font-size: 1.3em
+}
+
+#kopyala {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#kopyala button {
+    padding: 15px 0;
+    background-color: #1e7400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+}
+
+#guc {
+    color: #fff;
+    margin-top: 10px;
+}
+
+footer {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer a:hover {
+    color: #1e7400;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.animate {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .container {
+        max-width: 300px;
+    }
+
+    header {
+        height: 120px;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    header h2 {
+        position: absolute;
+        right: 20px;
+        bottom: 5px;
+    }
+
+    input,
+    select {
+        width: 250px;
+    }
+
+    button {
+        width: 270px;
+    }
+
+    #sifre {
+        width: 235px;
+    }
+
+    #kopyala button {
+        width: 270px;
+    }
+
+    #guc {
+        font-size: 1em;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+
+
+
+}
