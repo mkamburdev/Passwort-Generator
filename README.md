@@ -1,4 +1,4 @@
-# Projektname: Einfacher Passwort-Generator
+# Projektname: Passwort-Generator
 
 Dieses Projekt ist eine Testanwendung zur Erzeugung von Passwörtern. Es wurde als Teil meines JavaScript-Lernprozesses entwickelt. Es soll Benutzern helfen, starke und sichere Passwörter zu erstellen.
 
