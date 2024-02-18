@@ -10,4 +10,4 @@ Dieses Projekt ist eine Testanwendung zur Erzeugung von Passwörtern. Es wurde a
 
 ## Live-Demo
 
-Eine Live-Demo des Projekts finden Sie [hier]().
+Eine Live-Demo des Projekts finden Sie [hier](https://mkamburdev.github.io/Passwort-Generator/).
